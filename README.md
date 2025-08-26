@@ -2,7 +2,7 @@
 
 A modern take on the classic Asteroids arcade game, built with **HTML5 Canvas** and **JavaScript (ES6)**. This project demonstrates advanced front-end engineering concepts including physics-based movement, real-time rendering, collision detection, performance optimization, and modular game architecture.
 
-![screenshot](docs/screenshot.png) <!-- optional: replace with actual screenshot -->
+<img width="1919" height="984" alt="image" src="https://github.com/user-attachments/assets/c250088c-7a40-4d75-af92-570541331156" />
 
 ---
 
