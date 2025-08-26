@@ -1,12 +1,52 @@
-<canvas>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Asteroids Game</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
     <style>
-        body {
-            margin: 0;
-        }
+      html, body {
+        margin: 0;
+        height: 100%;
+        background: #000;
+        overflow: hidden;
+        font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+      }
+      #hud {
+        position: fixed;
+        top: 12px;
+        left: 12px;
+        color: #e6e6e6;
+        user-select: none;
+        text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+        font-size: 14px;
+        line-height: 1.35;
+      }
+      #center {
+        position: fixed;
+        inset: 0;
+        display: grid;
+        place-items: center;
+        color: #f2f2f2;
+        text-align: top;
+        pointer-events: none;
+      }
+      .title { font-weight: 700; font-size: 28px; letter-spacing: .5px; }
+      .sub { opacity: .85; margin-top: 6px; }
+      .hint { opacity: .6; margin-top: 12px; font-size: 13px; }
+      canvas { display:block; width:100vw; height:100vh; }
     </style>
-    <script src="./index.js"></script>
-</canvas>
-
-
-
-
+  </head>
+  <body>
+    <div id="hud"></div>
+    <div id="center">
+      <div>
+        <div class="title">ASTEROIDS</div>
+        <div class="sub">Press <b>Enter</b> to play</div>
+        <div class="hint">Move: <b>W / ↑</b>, Turn: <b>A/D / ← →</b>, Fire: <b>Space</b>, Pause: <b>P</b>, Hyperspace: <b>Shift</b></div>
+      </div>
+    </div>
+    <canvas id="game"></canvas>
+    <script defer src="./index.js"></script>
+  </body>
+</html>
