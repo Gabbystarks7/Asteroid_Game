@@ -80,14 +80,14 @@ A modern take on the classic Asteroids arcade game, built with **HTML5 Canvas** 
 1. Clone the repo:
 
    ```bash
-   git clone https://github.com/yourusername/asteroid-game.git
+   git clone https://github.com/Gabbystarks7/Asteroid_Game.git
    cd asteroid-game
    ```
 2. Open `index.html` in a browser. *(No build tools required!)*
 
 ### Play Online
 
-* [View Live Demo](https://your-demo-link.com)
+* [View Live Demo](https://sunny-beignet-392f89.netlify.app/)
 
 ---
 
